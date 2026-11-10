@@ -1,0 +1,33 @@
+* {
+ 
+}
+
+section {
+    background-image: url(assets/-05vtbzwe.jpg);
+    height: 550px;
+}
+
+header {
+    padding: 1px;
+    border: solid #8C5C32;
+    background-color: #8C5C32;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: px;
+}
+
+.titre {
+    padding: 100px;
+    text-align: center;
+     font-family: "Momo Signature", cursive;
+}
+
+.slo {
+    text-align: center;
+    border: solid gray;
+    border-radius: 15px;
+    font-family: "Momo Signature", cursive;
+
+}
+
