@@ -1,5 +1,5 @@
 * {
- 
+ margin: auto;
 }
 
 section {
@@ -12,22 +12,16 @@ header {
     border: solid #8C5C32;
     background-color: #8C5C32;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: px;
+    justify-content: end;
+    align-items: end;
+    gap: 48px;
 }
 
-.titre {
+.Chocolat {
     padding: 100px;
     text-align: center;
      font-family: "Momo Signature", cursive;
+     color: maroon
 }
 
-.slo {
-    text-align: center;
-    border: solid gray;
-    border-radius: 15px;
-    font-family: "Momo Signature", cursive;
-
-}
 
