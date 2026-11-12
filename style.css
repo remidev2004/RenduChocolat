@@ -1,11 +1,24 @@
 * {
     margin: 0;
-
 }
 
 a {
     text-decoration: none;
     color: black;
+}
+
+.promesse {
+    padding: 18px;
+    color: white;
+    text-align: center;
+}
+
+.Benefices {
+    color: white;
+}
+
+.Liste {
+    color: white;
 }
 
 header {
@@ -27,7 +40,7 @@ header {
 }
 
 nav {
-    margin-right: 24px;
+    margin-right: 35px;
 }
 
 .hero {
@@ -38,14 +51,89 @@ nav {
 .Chocolat {
     text-align: center;
     font-family: "Momo Signature", cursive;
-    color: brown;
+    color: rgb(226, 208, 208);
     padding: 120px;
-    a {
-        border: solid brown;
-        border-radius: 12px;
-        background-color: brown;
-        padding: 10px;
-        
 
+}
+
+.recherche {
+    border: solid brown;
+    border-radius: 12px;
+    background-color: brown;
+    padding: 8px;
+    margin: 10px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+
+    h2 {
+        text-align: center;
+        padding: 50px;
     }
+}
+
+.cardsevice {
+    width: 400px;
+    background-color: rgb(249, 208, 208);
+
+    img {
+        width: 100%;
+    }
+
+    h3 {
+        text-align: center;
+        padding: 10px;
+    }
+
+    p {
+        text-align: center;
+        padding: 24px;
+    }
+}
+
+.flex {
+    display: flex;
+    gap: 24px;
+}
+
+.flexvra {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.cardproduit {
+    width: 400px;
+    background-color: rgb(249, 208, 208);
+
+    img {
+        width: 300px;
+    }
+
+    h3 {
+        padding: 16px;
+    }
+
+    p {
+        padding: 14px;
+    }
+}
+
+.Clients {
+    text-align: center;
+    padding: 40px;
+}
+
+.avis {
+    padding: 35px;
+    background-color: rgb(249, 208, 208);
+    margin: 24px;
 }
