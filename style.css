@@ -1,27 +1,51 @@
 * {
- margin: auto;
+    margin: 0;
+
 }
 
-section {
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8C5C32;
+
+    a {
+        padding: 10px;
+        border: solid brown;
+        border-radius: 12px;
+        background-color: brown;
+    }
+
+    img {
+        margin: 8px;
+    }
+}
+
+nav {
+    margin-right: 24px;
+}
+
+.hero {
     background-image: url(assets/-05vtbzwe.jpg);
     height: 550px;
 }
 
-header {
-    padding: 1px;
-    border: solid #8C5C32;
-    background-color: #8C5C32;
-    display: flex;
-    justify-content: end;
-    align-items: end;
-    gap: 48px;
-}
-
 .Chocolat {
-    padding: 100px;
     text-align: center;
-     font-family: "Momo Signature", cursive;
-     color: maroon
+    font-family: "Momo Signature", cursive;
+    color: brown;
+    padding: 120px;
+    a {
+        border: solid brown;
+        border-radius: 12px;
+        background-color: brown;
+        padding: 10px;
+        
+
+    }
 }
-
-
