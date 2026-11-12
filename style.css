@@ -17,10 +17,6 @@ a {
     color: white;
 }
 
-.Liste {
-    color: white;
-}
-
 header {
     display: flex;
     justify-content: space-between;
@@ -61,8 +57,9 @@ nav {
     border-radius: 12px;
     background-color: brown;
     padding: 8px;
-    margin: 10px;
+    margin: auto;
     text-align: center;
+    width: fit-content;
 }
 
 .container {
